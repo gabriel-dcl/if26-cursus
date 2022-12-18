@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Sigle">
+        <menu>
+            <item
+                android:id="@+id/main_menu_sigle_list"
+                android:title="list" />
+            <item
+                android:id="@+id/main_menu_sigle_add"
+                android:title="add" />
+            <item
+                android:id="@+id/main_menu_sigle_del"
+                android:title="del" />
+        </menu>
+    </item>
+    <item android:title="Module" >
+        <menu >
+            <item
+                android:id="@+id/main_menu_module_list"
+                android:title="list" />
+            <item
+                android:id="@+id/main_menu_module_recycler_list"
+                android:title="list (recycler)" />
+            <item
+                android:id="@+id/main_menu_module_add"
+                android:title="Add" />
+            <item
+                android:id="@+id/main_menu_module_del"
+                android:title="del" />
+        </menu>
+    </item>
+
+    <item android:title="ModuleSql" >
+        <menu >
+            <item
+                android:id="@+id/main_menu_module_sql_list"
+                android:title="list" />
+            <item
+                android:id="@+id/main_menu_module_sql_add"
+                android:title="Add" />
+            <item
+                android:id="@+id/main_menu_module_sql_del"
+                android:title="del" />
+        </menu>
+    </item>
+    <item android:title="ModuleRoom" >
+        <menu >
+            <item
+                android:id="@+id/main_menu_module_room_list"
+                android:title="list" />
+            <item
+                android:id="@+id/main_menu_module_room_add"
+                android:title="Add" />
+            <item
+                android:id="@+id/main_menu_module_room_del"
+                android:title="del" />
+        </menu>
+    </item>
+</menu>
